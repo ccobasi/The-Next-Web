@@ -282,7 +282,7 @@ nav {
 }
 .popular-text {
   position: absolute;
-  bottom: 8px;
+  bottom: 5px;
   left: 16px;
   z-index: 1;
   color: #fff;
@@ -292,4 +292,59 @@ nav {
 }
 .popular-text ul {
   display: flex;
+  font-size: 12px;
+}
+.latest {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  max-width: 1100px;
+}
+.float-container1,
+.float-container2,
+.float-container3 {
+  position: relative;
+  width: 362px;
+}
+.float-container1 h3,
+h4,
+.float-container2 h3,
+h4,
+.float-container3 h3,
+h4 {
+  color: #f42;
+  float: left;
+}
+.float-container1 img {
+  float: right;
+  width: 100%;
+}
+.text-img {
+  max-width: 362px;
+  text-align: left;
+  line-height: 1;
+}
+.text-img img {
+  float: right;
+}
+.text-img h4,
+h3 {
+  max-width: 250px;
+  font-size: 14px;
+}
+.text-img h3 {
+  margin: 10px;
+}
+.link ul {
+  display: block;
+  list-style-type: disc;
+  font-size: 14px;
+  color: #f42;
+}
+.float-link {
+  padding-top: 100px;
+  padding-left: 5px;
+}
+.link li a {
+  color: rgb(85, 84, 84);
 }
