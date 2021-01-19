@@ -220,3 +220,76 @@ nav {
   color: #aaa;
   font-size: 12px;
 }
+.latest-fund {
+  margin-bottom: 2em;
+  padding-top: 24px;
+  margin: auto;
+  max-width: 1100px;
+}
+.deals-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.deals-header h2 a {
+  color: #f42;
+  font-weight: bold;
+  line-height: 1.1;
+  align-self: left;
+}
+.deals-header a {
+  color: #f42;
+}
+.latest-deal {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+.latest-story-1,
+.latest-story-2,
+.latest-story-3,
+.latest-story-4 img {
+  width: 100%;
+}
+.most-popular {
+  margin-bottom: 2em;
+  padding-top: 24px;
+  margin: auto;
+  max-width: 1100px;
+}
+.popular-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  max-width: 1100px;
+}
+.popular-container {
+  position: relative;
+}
+.img-popular1,
+.img-popular2,
+.img-popular3 {
+  position: relative;
+
+  color: white;
+  line-height: 1;
+}
+.img-popular1 a,
+.img-popular2 a,
+.img-popular3 a {
+  color: #f42;
+}
+.popular-text {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  z-index: 1;
+  color: #fff;
+}
+.popular-text a {
+  color: #fff;
+}
+.popular-text ul {
+  display: flex;
+}
