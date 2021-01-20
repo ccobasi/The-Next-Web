@@ -28,52 +28,6 @@ nav {
   text-decoration: none;
 }
 
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover,
-.dropdown:hover .dropbtn {
-  background-color: black;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #080808;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: white;
-  /* padding: 12px 16px; */
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: rgb(7, 7, 7);
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
 .wrap {
   max-width: 1300px;
   margin: 0 auto;
@@ -347,4 +301,29 @@ h3 {
 }
 .link li a {
   color: rgb(85, 84, 84);
+}
+.footer-menu {
+  background-color: rgb(29, 28, 28);
+  height: 150px;
+}
+.footer-copyright {
+  background-color: black;
+  height: 100px;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 0 20px;
+  position: relative;
+}
+.footer-links-menu {
+  display: inline-flex;
+  position: absolute;
+  top: 90px;
+  left: 420px;
+  justify-content: center;
+}
+.footer-links-menu li a {
+  color: #aaa;
+  margin-left: 10px;
 }
